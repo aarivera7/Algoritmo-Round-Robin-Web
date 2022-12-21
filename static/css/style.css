@@ -1,0 +1,209 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	background: rgba(215, 211, 211, 0.3);
+	font-family: 'Poppins', sans-serif;
+}
+.contenedor{
+	max-width: 1524px;
+	margin: 0 auto;
+}
+
+html h1 {
+	font-size: 4rem;
+	margin: 1rem 3rem;
+}
+
+.contenedor p {
+	font-size: 1.6rem;
+}
+/*  --------------------------------------------  */
+/*                    header                      */
+/*  --------------------------------------------  */
+.contenedor .cabeceraPrincipal{
+	grid-area: header;
+	background-color: #001a64;
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.6rem;
+}
+.contenedor .cabeceraPrincipal .logotipo{
+	padding: 1rem 4rem;
+}
+.contenedor .cabeceraPrincipal nav{
+	display: flex;
+	align-items: center;
+}
+.contenedor .cabeceraPrincipal nav a{
+	text-decoration: none;
+	padding: 0 2rem;
+	color: white;
+	border-radius: 2rem;
+}
+.contenedor .cabeceraPrincipal nav a:hover{
+	color: #e0b300;
+}
+/*  --------------------------------------------  */
+/*                    slider                      */
+/*  --------------------------------------------  */
+
+.contenedor .titulo{
+	grid-area: titulo;
+	background-color: #605B5B;
+	text-align: center;
+}
+.contenedor .titulo h2{
+	color: #9C9B9B;
+	font-size: 4rem;
+	font-weight: 300;
+	padding: 3rem 0;
+}
+
+.utpl{
+	width: 15rem;
+	padding: 1rem;
+}
+
+.petsImg{
+	width: 12rem;
+}
+
+.img {
+	margin: 2rem;
+}
+
+/*  --------------------------------------------  */
+/*                    footer                      */
+/*  --------------------------------------------  */
+.contenedor .piePagina{
+	grid-area: footer;
+	background-color: #1B1B1B;
+	display: flex;
+	justify-content: space-between;
+}
+
+.piePagina .derechos{
+	color: #A3A3A3;
+	padding: 3rem 5rem;
+	font-size: 1.2rem;
+}
+.piePagina .redesSociales{
+	display: flex;
+	align-items: center;
+}
+.contenedor .piePagina .redesSociales a{
+	color: #D7F171;
+	text-decoration: none;
+	padding: 0 1.5rem;
+	font-size: 3.5rem;
+}
+.contenedor .piePagina .redesSociales a:hover{
+	color: #fff;
+}
+
+/*Main */
+
+main{
+	grid-area: slider;
+	margin: 0 auto;
+	width: 90%;
+	padding: 2em 0;
+}
+
+h2 {
+	font-size: 3rem;
+}
+
+main p {
+	color: #605B5B;
+	font-size: 1rem;
+	line-height: 2.8rem;
+}
+
+/* Formulario */
+.alerta {
+	color: red;
+}
+
+.grupoInput {
+	padding: 2rem 5rem;
+}
+
+.grupoInput label {
+	display: block;
+	font-size: 1.6rem;
+}
+
+.grupoInput input[type=text], .grupoInput input[type=number]{
+	width: 90%;
+	padding: 1rem;
+	border-radius: 1rem;
+}
+
+.boton {
+	background-color: #0085FE;
+	border: none;
+	color: white;
+	padding: 1.5rem 3.2rem;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1.6rem;
+	margin: 0.4rem 0.2rem;
+	cursor: pointer;
+	border-radius: .5rem;
+	transition: 0.3s;
+  }
+
+  main .boton:hover {
+	background-color: #0FF1FF;
+  }
+
+  .centrado {
+	text-align: center;
+  }
+
+/*  --------------------------------------------  */
+/*                   Servicios                    */
+/*  --------------------------------------------  */
+
+
+
+.tabla {
+	margin: 2rem 5rem;
+	font-size: 2rem;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.tabla td {
+	padding: .5rem;
+}
+.resultado {
+	margin: 2rem;
+}
+
+.bloque {
+	width: 4rem;
+	height: 4rem;
+	font-size: 2rem;
+	border: 1px solid black;
+	display: flex;
+}
+
+.bloques {
+	margin: 4rem;
+	display: flex;
+}
+
+.a {
+	text-decoration: none;
+}
