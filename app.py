@@ -6,7 +6,8 @@ app = Flask(__name__)
 lista_procesos = []
 lp = []
 i = 0
-colors = iter(['blue', 'yellow', 'green', 'gray', 'orange', 'white', 'red', 'lightblue', 'lightgreen'] * 2)
+colors = iter(['blue', 'yellow', 'green', 'gray', 'orange', 'white', 'red', 'lightblue', 'lightgreen', 'pink',
+               'purple', 'cyan'] * 2)
 
 
 @app.route('/')
@@ -23,7 +24,6 @@ def resetear():
     lista_procesos = []
     lp = []
     i = 0
-    colors = iter(['blue', 'yellow', 'green', 'gray', 'orange', 'white', 'red', 'lightblue', 'lightgreen'] * 2)
     return render_template("index.html")
 
 

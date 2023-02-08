@@ -3,25 +3,15 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-
 html{
 	font-size: 62.5%;
-}
-
-body{
 	background: rgba(215, 211, 211, 0.3);
 	font-family: 'Poppins', sans-serif;
 }
-.contenedor{
-	max-width: 1524px;
-	margin: 0 auto;
-}
-
 html h1 {
 	font-size: 4rem;
 	margin: 1rem 3rem;
 }
-
 .contenedor p {
 	font-size: 1.6rem;
 }
@@ -29,7 +19,6 @@ html h1 {
 /*                    header                      */
 /*  --------------------------------------------  */
 .contenedor .cabeceraPrincipal{
-	grid-area: header;
 	background-color: #001a64;
 	display: flex;
 	justify-content: space-between;
@@ -54,9 +43,7 @@ html h1 {
 /*  --------------------------------------------  */
 /*                    slider                      */
 /*  --------------------------------------------  */
-
 .contenedor .titulo{
-	grid-area: titulo;
 	background-color: #605B5B;
 	text-align: center;
 }
@@ -71,15 +58,12 @@ html h1 {
 	width: 15rem;
 	padding: 1rem;
 }
-
 .petsImg{
 	width: 12rem;
 }
-
 .img {
 	margin: 2rem;
 }
-
 /*  --------------------------------------------  */
 /*                    footer                      */
 /*  --------------------------------------------  */
@@ -134,39 +118,34 @@ main p {
 }
 
 .grupoInput {
-	padding: 2rem 5rem;
+	padding: 2rem 40px;
 }
 
 .grupoInput label {
 	display: block;
 	font-size: 1.6rem;
 }
-
 .grupoInput input[type=text], .grupoInput input[type=number]{
-	width: 90%;
+	width: 80vw;
 	padding: 1rem;
 	border-radius: 1rem;
 }
 
-.boton {
+.button {
 	background-color: #0085FE;
 	border: none;
 	color: white;
-	padding: 1.5rem 3.2rem;
+	padding: 10px 30px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 1.6rem;
-	margin: 0.4rem 0.2rem;
-	cursor: pointer;
+	margin: 0.4rem 10px;
 	border-radius: .5rem;
-	transition: 0.3s;
   }
-
-  main .boton:hover {
+  main .button:hover {
 	background-color: #0FF1FF;
   }
-
   .centrado {
 	text-align: center;
   }
@@ -174,23 +153,18 @@ main p {
 /*  --------------------------------------------  */
 /*                   Servicios                    */
 /*  --------------------------------------------  */
-
-
-
 .tabla {
 	margin: 2rem 5rem;
 	font-size: 2rem;
 	border: 1px solid black;
 	border-collapse: collapse;
 }
-
 .tabla td {
 	padding: .5rem;
 }
 .resultado {
 	margin: 2rem;
 }
-
 .bloque {
 	width: 4rem;
 	height: 4rem;
@@ -198,12 +172,10 @@ main p {
 	border: 1px solid black;
 	display: flex;
 }
-
 .bloques {
 	margin: 4rem;
 	display: flex;
 }
-
 .a {
 	text-decoration: none;
 }
